@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Difference between let,var and const</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>let</th>
+    <th>var</th>
+    <th>const</th>
+  </tr>
+  <tr>
+    <td>block scope</td>
+    <td>global scope</td>
+    <td>block scope</td>
+  </tr>
+  <tr>
+    <td>does not show hoisting behavior</td>
+    <td>show hoisting behavior</td>
+    <td>does not show hoisting behavior</td>
+  </tr>
+  <tr>
+    <td>value can be changed later</td>
+    <td>value can be changed later</td>
+    <td>value cannot be changed later</td>
+  </tr>
+</table>
+<button onclick="letWord()";>let</button>
+<script>
+            let a = 5;
+            let b = 8;
+            function  letWord(){
+                let a = 2;
+                let b = 8;
+                let result = a + b;
+                console.log('result in block scope : ' +result);
+                console.log('a in block scope : ' +a);
+            }
+            let result = a + b;
+            console.log('a in global scope : ' +a);
+            console.log('result in global scope : ' +result);
+
+</script>
+</body>
+</html>
+</body>
+</html>
