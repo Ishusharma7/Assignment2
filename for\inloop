@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>for / in loop is a loop which iterates over the property name in an an array it can only be used in arrays and object</h1>
+    <script>
+        let person = {
+            firstName : 'Ishu',
+            lastName : 'Sharma',
+            Age : 23,
+        };
+        for(const key in person){
+            console.log(person[key]);
+        }
+    </script>
+    
+</body>
+</html>
