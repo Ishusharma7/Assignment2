@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       'use strict';
+        let a = ['1','12121','13','2','13','1','3','123','23','1','2'];
+        let b = []
+        a = b;
+        console.log(a);
+   
+        let c = ['1','12121','13','2','13','1','3','123','23','1','2'];
+        c.splice(0,c.length);
+        console.log(c);
+
+        let d = ['1','12121','13','2','13','1','3','123','23','1','2'];
+        while (d.length > 0){
+            d.pop();
+        }
+        console.log(d);
+    </script>
+    
+</body>
+</html>
