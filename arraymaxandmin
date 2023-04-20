@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="maxvalue()";>MAX</button>
+    <button onclick="minvalue()";>MIN</button>
+    <script>
+                let a = ['1','23424','23423','32432','324','2343'];
+        function maxvalue(){
+            let b = Math.max(...a);
+            console.log(b);
+        }
+        function minvalue(){
+            let b = Math.min(...a);
+            console.log(b);
+        }
+    </script>
+</body>
+</html>
